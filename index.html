@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=1200, initial-scale=0.3">
 
 <title>iTRA | سنسور اکسیژن</title>
 
@@ -359,3 +359,49 @@ img.addEventListener("mouseleave", function(){
 
 </body>
 </html>
+
+/* نمایش موبایل مشابه دسکتاپ */
+@media (max-width:768px){
+
+    body{
+        min-width:1200px;
+        overflow-x:auto;
+    }
+
+    .media-text-row{
+        flex-direction:row !important;
+        justify-content:space-between !important;
+        align-items:flex-start !important;
+    }
+
+    .gallery-container{
+        flex-direction:row-reverse !important;
+    }
+
+    .thumbnail-column{
+        flex-direction:column !important;
+    }
+
+    .product-card{
+        width:380px !important;
+        height:380px !important;
+    }
+
+    .container{
+        width:92% !important;
+        padding:50px !important;
+    }
+
+    .title{
+        font-size:46px !important;
+    }
+
+    .subtitle{
+        font-size:18px !important;
+    }
+
+    .spec-section p{
+        font-size:18px !important;
+    }
+
+}
